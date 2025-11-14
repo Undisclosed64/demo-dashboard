@@ -8,8 +8,8 @@ concurrency: 1
 jobLabel:
   - heJob
 pre:
-  - npm install cypress@9.6 --legacy-peer-deps
-  - npm install cypress@9.6.0 --legacy-peer-deps
+  - npm install cypress@12.17.4 --legacy-peer-deps
+  - npm install cypress@12.17.4 --legacy-peer-deps
 cacheKey: '{{ checksum "package.lock.json" }}'
 cacheDirectories:
   - node_modules
@@ -19,8 +19,8 @@ env:
   HYPEREXECUTE_CUSTOM_BUILD: cypress-react-demo
 matrix:
   browser:
-    - Chrome-latest-1
-    - Firefox-latest-1
+    - Chrome-latest
+    - Firefox-latest
   test:
     - ./cypress/e2e/tasks.cy.js
   os:
