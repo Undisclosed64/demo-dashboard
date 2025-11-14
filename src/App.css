@@ -38,7 +38,6 @@ nav a {
   display: block;
   padding: 8px;
   border-radius: 6px;
-  font-size: 1.1rem;
 }
 
 nav a:hover {
@@ -54,7 +53,6 @@ nav a:hover {
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 1.1rem;
 }
 
 /* Main content */

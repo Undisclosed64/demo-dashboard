@@ -1,6 +1,6 @@
 describe("Tasks Page", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:5173/tasks");
+    cy.visit("https://demo-dashboard-gray-three.vercel.app/tasks");
     cy.contains("Tasks").should("be.visible");
   });
 

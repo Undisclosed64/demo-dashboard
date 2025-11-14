@@ -1,6 +1,6 @@
 describe("App Navigation", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:5173/");
+    cy.visit("https://demo-dashboard-gray-three.vercel.app");
   });
   //application loads
   it("the application loads successfully", () => {
@@ -29,4 +29,3 @@ describe("App Navigation", () => {
     cy.contains("This page is yet to be implemented").should("be.visible");
   });
 });
-cy.contains("Tasks");

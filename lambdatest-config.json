@@ -1,0 +1,35 @@
+{
+  "lambdatest_auth": {
+    "username": "taheraalam532",
+    "access_key": "0q312fPg9ql1rSiIDzIc2UXuxldzewvSwsvElOy0CAEg7XIech"
+  },
+  "browsers": [
+    {
+      "browser": "Chrome",
+      "platform": "Windows 10",
+      "versions": ["latest-1"]
+    },
+    {
+      "browser": "Firefox",
+      "platform": "Windows 10",
+      "versions": ["latest-1"]
+    }
+  ],
+  "run_settings": {
+    "reporter_config_file": "base_reporter_config.json",
+    "build_name": "cypress-react-demo",
+    "parallels": 1,
+    "specs": "./cypress/e2e/tasks.cy.js",
+    "ignore_files": "",
+    "network": false,
+    "video": true,
+    "headless": false,
+    "npm_dependencies": {
+      "cypress": "9.6"
+    }
+  },
+  "tunnel_settings": {
+    "tunnel": false,
+    "tunnel_name": null
+  }
+}
